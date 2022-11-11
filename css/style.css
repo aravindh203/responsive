@@ -1,0 +1,39 @@
+.container{
+	width:80%;
+	margin:0 auto;
+	text-align:center;
+}
+p{
+	text-align:justify;
+}
+img{
+	width:100%;
+}
+@media (min-width:320px){
+	p{
+		font-size:14px;
+	}
+	body{
+		background-color:red;
+		color:white;
+	}
+}
+@media (min-width:600px){
+	p{
+		font-size:20px;
+	}
+	body{
+		background-color:green;
+		color:black;
+	}
+}
+@media (min-width:1025px){
+	p{
+		font-size:22px;
+	}
+	body{
+		background-color:skyblue;
+		color:white;
+	}
+}
+		
